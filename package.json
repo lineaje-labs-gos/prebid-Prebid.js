@@ -113,7 +113,7 @@
     "karma-spec-reporter": "^0.0.32",
     "karma-webpack": "^5.0.0",
     "lcov-result-merger": "^5.0.1",
-    "lodash": "^4.17.21",
+    "lodash": ">=4.18.1",
     "merge-stream": "^2.0.0",
     "mocha": "^10.7.3",
     "morgan": "^1.10.0",
@@ -169,10 +169,14 @@
   },
   "overrides": {
     "js-yaml": ">=4.3.1",
-    "form-data": ">=4.0.6"
+    "form-data": ">=4.0.6",
+    "lodash": ">=4.18.1",
+    "path-to-regexp": ">=0.1.13"
   },
   "resolutions": {
     "js-yaml": ">=4.3.1",
-    "form-data": ">=4.0.6"
+    "form-data": ">=4.0.6",
+    "lodash": ">=4.18.1",
+    "path-to-regexp": ">=0.1.13"
   }
 }
